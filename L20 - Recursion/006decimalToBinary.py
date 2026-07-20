@@ -1,3 +1,5 @@
+# time : O((logn)^2)
+# space: O(logn) due to fn call stack + str
 def f(n: int) -> str:
     # base case
     if n == 0:
