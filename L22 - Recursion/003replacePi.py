@@ -1,3 +1,7 @@
+# time : O(n)
+# space: O(n) due to fn call stack
+
+
 def f(arr: list[str], i: int, out: list[str]) -> None:
     # base case
 
