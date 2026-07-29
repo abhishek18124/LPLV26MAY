@@ -17,9 +17,17 @@ def f(maze: list[list[str]], m: int, n: int, i: int, j: int) -> int:
 
     # option 1 : move right
 
+    # j += 1
+    # x = f(maze, m, n, i, j)
+    # j -= 1
+
     x = f(maze, m, n, i, j + 1)
 
     # option 2 : move down
+
+    # i += 1
+    # y = f(maze, m, n, i, j)
+    # i -= 1
 
     y = f(maze, m, n, i + 1, j)
 
