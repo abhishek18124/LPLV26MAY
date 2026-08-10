@@ -1,4 +1,6 @@
 class Solution:
+    # time : O(2^n)
+    # space: O(n) due to fn call stack
     def rob(self, nums: List[int]) -> int:
         def f(i: int) -> int:
             # base case
