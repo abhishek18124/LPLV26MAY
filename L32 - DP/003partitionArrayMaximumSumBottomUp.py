@@ -1,6 +1,6 @@
 class Solution:
     # time : O(nk)
-    # space: n due to fn call stack + n due to dp[] ~ O(n)
+    # space: n due to dp[] ~ O(n)
     def maxSumAfterPartitioning(self, arr: List[int], k: int) -> int:
         n = len(arr)
 

@@ -68,7 +68,7 @@ def f_bottom_up(n: int, p: list[int]) -> int:
     for i in range(1, n + 1):  # [1, n]
         # dp[i] stores f(i) : find the maximum profit we can make from a rod of length i
         max_so_far = 0
-        for j in range(1, i + 1):  # [1, n]
+        for j in range(1, i + 1):  # [1, i]
             max_so_far = max(max_so_far, p[j - 1] + dp[i - j])
             dp[i] = max_so_far
 
